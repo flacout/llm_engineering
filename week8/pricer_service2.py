@@ -29,18 +29,23 @@ PREFIX = "Price is $"
 class Pricer:
     @modal.build()
     def download_model_to_folder(self):
+        # called when the Docker container of the APP is build. Here when to download files.
         from huggingface_hub import snapshot_download
         import os
+        print("LOAD MODELS IN THE CACHE")
         os.makedirs(MODEL_DIR, exist_ok=True)
         snapshot_download(BASE_MODEL, local_dir=BASE_DIR)
         snapshot_download(FINETUNED_MODEL, revision=REVISION, local_dir=FINETUNED_DIR)
 
     @modal.enter()
     def setup(self):
+        # called when the Class is instanciated. This is here when to init self.variables.
+        # this will still be rerun after a while if the APP is not called. Modal put Apps to sleep after some time.
         import os
         import torch
         from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, set_seed
         from peft import PeftModel
+        print("MODAL ENTER DECO")
         
         # Quant Config
         quant_config = BitsAndBytesConfig(
@@ -66,11 +71,13 @@ class Pricer:
 
     @modal.method()
     def price(self, description: str) -> float:
+        # callable function.
         import os
         import re
         import torch
         from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, set_seed
         from peft import PeftModel
+        print("MODAL METHOD DECO")
     
         set_seed(42)
         prompt = f"{QUESTION}\n\n{description}\n\n{PREFIX}"
