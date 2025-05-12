@@ -50,7 +50,7 @@ class App:
         
             ui.load(start, inputs=[], outputs=[opportunities_dataframe])
 
-            timer = gr.Timer(value=60)
+            timer = gr.Timer(value=60, active=True)
             timer.tick(go, inputs=[], outputs=[opportunities_dataframe])
 
             opportunities_dataframe.select(do_select)

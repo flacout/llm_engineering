@@ -16,5 +16,41 @@
     },
     "estimate": 930.8824204895075,
     "discount": 225.88242048950747
+  },
+  {
+    "deal": {
+      "product_description": "The refurbished Samsung Galaxy S23 Ultra offers a powerful smartphone experience with its 6.8\" AMOLED display and an impressive 200MP main camera. Built with the Snapdragon 8 Gen 2 processor, it comes with 512GB of internal storage and 8GB of RAM, ensuring smooth performance for multitasking and gaming. The phone's long-lasting 5,000mAh battery supports all-day usage, making it an ideal choice for heavy smartphone users. This model is compatible with all carriers, ensuring flexible connectivity.",
+      "price": 505.0,
+      "url": "https://www.dealnews.com/products/Samsung/Unlocked-Samsung-Galaxy-S23-Ultra-512-GB-Smartphone/405671.html?iref=rss-c142"
+    },
+    "estimate": 923.0376717916932,
+    "discount": 418.03767179169324
+  },
+  {
+    "deal": {
+      "product_description": "The Insignia 75\" Class F50 Series LED 4K UHD Smart Fire TV features a stunning 3840\u00d72160 (4K) native resolution, providing a sharp and vibrant picture quality. This model comes with HDR10 and HLG support for enhanced contrast and colors. You can easily access your favorite streaming services like Netflix, Disney+, and YouTube thanks to the integrated Alexa-enabled Fire TV. This television is perfect for immersive viewing experiences in any living room setting.",
+      "price": 380.0,
+      "url": "https://www.dealnews.com/products/Insignia/Insignia-75-Class-F50-Series-LED-4-K-UHD-Smart-Fire-TV/486584.html?iref=rss-c142"
+    },
+    "estimate": 905.0016239757829,
+    "discount": 525.0016239757829
+  },
+  {
+    "deal": {
+      "product_description": "Headway Premium offers lifetime access to an extensive library featuring over 2,000 book summaries, with new titles being added every month. Ideal for lifelong learners, this subscription allows users to easily and quickly grasp key insights from a wide range of subjects without the need to read full books. Users can delve into topics across genres at their own pace, making it a valuable resource for personal and professional development.",
+      "price": 60.0,
+      "url": "https://www.dealnews.com/Headway-Premium-Lifetime-Subscription-for-60/21736672.html?iref=rss-c142"
+    },
+    "estimate": 246.14399497685582,
+    "discount": 186.14399497685582
+  },
+  {
+    "deal": {
+      "product_description": "The Certified Refurb Sonos Era 100 Bluetooth Smart Speaker offers exceptional sound quality and versatility. This speaker is Alexa-enabled, allowing you to control playlists and smart home devices with voice commands. With multiple connectivity options including Bluetooth and Wi-Fi, it is compatible with various devices. The Trueplay tuning technology automatically optimizes the speaker\u2019s sound based on your room's acoustics, providing an enhanced listening experience. A 2-year Allstate warranty is included with the refurbished item.",
+      "price": 159.0,
+      "url": "https://www.dealnews.com/products/Sonos/Sonos-Era-100-Bluetooth-Smart-Speaker/488007.html?iref=rss-f1912"
+    },
+    "estimate": 325.2223892179587,
+    "discount": 166.22238921795872
   }
 ]

@@ -81,7 +81,7 @@ class ScrapedDeal:
         for feed_url in feed_iter:
             feed = feedparser.parse(feed_url)
             for entry in feed.entries[:10]:
-                deals.append(cls(entry))
+                deals.append(cls(entry))  # here we are using the class __init__
                 time.sleep(0.5)
         return deals
 
